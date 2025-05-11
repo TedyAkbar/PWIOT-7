@@ -1,0 +1,20 @@
+{
+  "name": "iot-monitoring-system",
+  "version": "1.0.0",
+  "description": "Sistem monitoring IoT dengan Node.js dan MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "connect-mysql": "^0.1.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "express-mysql-session": "^3.0.3",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.14.1",
+    "socket.io": "^4.8.1"
+  }
+}

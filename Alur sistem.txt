@@ -1,0 +1,29 @@
+[ESP32] --baca suhu--> [Server] --simpan--> [Database]
+     |                      |                     |
+     |                      |                     |
+     |                [Web Interface] <--ambil data--
+     |                      |
+     |                      |
+     |                [User klik ON/OFF]
+     |                      |
+     |                      |
+     |                [Server update relay]
+     |                      |
+     |                      |
+     |                [Broadcast ke semua client]
+     |                      |
+     |                      |
+[ESP32 cek status] <--ambil status--
+     |
+     |
+[ESP32 kontrol relay]
+
+project/
+├── server.js
+├── database.sql
+├── package.json
+├── esp32_code.ino
+└── public/
+    ├── dashboard.html
+    ├── dashboard.js
+    └── login.html
